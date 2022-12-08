@@ -1,6 +1,6 @@
 #include <stdio.h>
 void(main)
 {
-   puts("\"Programming is like building a multilingual puzzle")
-	 returs(0)
+   puts("\"Programming is like building a multilingual puzzle");
+	 returs(0);
 }
