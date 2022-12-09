@@ -5,7 +5,7 @@
 /* more headers goes there */
 /*betty style doc for function main goes there */
 /**
- * main -Entry point
+ * main - Entry
  *
  * return: always 0 (success)
  */
