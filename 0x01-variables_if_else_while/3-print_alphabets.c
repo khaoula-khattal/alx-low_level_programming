@@ -1,0 +1,25 @@
+#include <stdio.h>
+/**
+ *  main - Entry point
+ *
+ *  Return:0
+ */
+int main(void)
+{
+	char n, N;
+
+	n = 'a';
+	N = 'A';
+	while (n <= 'z')
+	{
+		putchar(n);
+		n++;
+	}
+	while (N <= 'Z')
+	{
+		putchar(N);
+		N++;
+	}
+	putchar('\n');
+	return (0);
+}
