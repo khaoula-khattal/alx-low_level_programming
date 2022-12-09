@@ -12,7 +12,7 @@ int main(void)
 
 	a = 'a';
 	n = 0;
-	while (n < 9)
+	while (n <= 9)
 	{
 		putchar(n + '0');
 		n++;
