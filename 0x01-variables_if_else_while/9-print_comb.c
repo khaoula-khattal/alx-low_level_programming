@@ -14,6 +14,7 @@ int main(void)
 		if (v < 9)
 		{
 			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
