@@ -3,7 +3,7 @@
 /**
  * jack_bauer - write every minute
  */
-void jack_bauner(void)
+void jack_bauer(void)
 {
 	int h, m;
 
