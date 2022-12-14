@@ -7,5 +7,6 @@ void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
 void print_remainin_day(int mouth, int day, int year);
 int convert_day(int mouth, int day);
+void print_times_table(int n);
 
 #endif /* MAIN_H */
