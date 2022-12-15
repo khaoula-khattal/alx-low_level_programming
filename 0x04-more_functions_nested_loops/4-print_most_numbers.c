@@ -8,7 +8,7 @@ int _putchar(char c);
  */
 void print_most_numbers(void)
 {
-	int c;
+	char c;
 
 	for (c = 48; c < 58; c++)
 	{
