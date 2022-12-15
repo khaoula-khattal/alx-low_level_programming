@@ -1,4 +1,5 @@
 #include "main.h"
+int _putchar(char c);
 
 /**
  * print_most_numbers - from 0 to 9
@@ -7,7 +8,7 @@
  */
 void print_most_numbers(void)
 {
-	int char c;
+	int c;
 
 	for (c = 48; c < 58; c++)
 	{
