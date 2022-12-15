@@ -1,8 +1,8 @@
 #include "main.h"
 #include <stdio>
 /**
- * main - entry
- * Return: fizz buzz
+ * main - print buzz or fizz
+ * Return: 0
  */
 int main(void)
 {
@@ -25,6 +25,10 @@ int main(void)
 		else
 		{
 			printf("%d", n);
+		}
+		if (n == 100)
+		{
+			continue;
 		}
 		printf(' ')
 	}
