@@ -3,7 +3,6 @@
 /**
  * print_rev - print a string
  * @s: string
- * Return: the strin
  */
 
 void print_rev(char *s)
