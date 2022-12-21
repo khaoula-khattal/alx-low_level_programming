@@ -5,12 +5,13 @@
  * @dest: first
  * @src: second
  * @n: input
- * Return: function
+ * Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int a, b;
+	int a;
+	int b;
 
 	a = 0;
 	while (dest[a] != '\0')
@@ -20,9 +21,9 @@ char *_strncat(char *dest, char *src, int n)
 	b = 0;
 	while (b < n && src[b] != '\0')
 	{
-	dest[a] = scr[b];
-	a++;
-	b++;
+		dest[a] = scr[b];
+		a++;
+		b++;
 	}
 	dest[a] = '\0';
 	return (dest);
