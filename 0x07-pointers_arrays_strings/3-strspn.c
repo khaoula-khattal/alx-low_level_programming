@@ -4,7 +4,7 @@
  * _strspn - LOcate a char
  * @s: to be scanned
  * @accept: match in s
- * Return: return count 
+ * Return: count
  **/
 
 unsigned int _strspn(char *s, char *accept)
