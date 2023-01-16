@@ -6,8 +6,6 @@
  * @name: His name
  * @age: The age
  * @owner: His owner
- *
- * Description: long
  */
 
 struct dog
@@ -17,10 +15,6 @@ struct dog
 	char *owner;
 
 };
-
-/**
- * dog_t - typedef for struct dog
- */
 
 typedef struct dog dog_t;
 
