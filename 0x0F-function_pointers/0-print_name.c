@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * print_name - the name 
+ * print_name - the name
  * @name: name to prit
  * @f: pointer to the printing function
  */
