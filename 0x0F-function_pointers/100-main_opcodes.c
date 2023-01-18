@@ -7,7 +7,7 @@
  * main - prints its own opcodes
  *@argc: number of argument
  *@argv: array of argument
- *Return: Always 0 
+ *Return: Always 0
  */
 
 int main(int argc, char *argv[])
@@ -15,8 +15,8 @@ int main(int argc, char *argv[])
 {
 	int bytes, i;
 	char *arr;
-	
-	if (argc != 2)
+
+	if (arg != 2)
 	{
 		printf("Error\n");
 		exit(1);
